@@ -5,7 +5,3 @@ The theme is designed to be easy on the eyes and have a neat design by using col
 ## How to use
 
 This theme is intended to be used with the Google Chrome extension [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en). [Github page](https://github.com/openstyles/stylus/)
-
-### Prerequisites
-
-What things you need to install the software and how to install them
