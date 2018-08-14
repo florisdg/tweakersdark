@@ -4,4 +4,5 @@ The theme is designed to be easy on the eyes and have a neat design by using col
 
 ## How to use
 
-This theme is intended to be used with the Google Chrome extension [Stylus](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en). [Github page](https://github.com/openstyles/stylus/)
+This theme is intended to be used with the Google Chrome extension Stylus. 
+See their [extension download page](https://chrome.google.com/webstore/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en) or their [Github repo](https://github.com/openstyles/stylus/).
