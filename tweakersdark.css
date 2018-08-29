@@ -19,10 +19,10 @@ color: #888;
 font-weight: bold;
 }
 .popup .popupContent h4, .mainSearchSuggest .twk li p a, .mainSearchSuggest ul a {
-	color: #ccc;
+    color: #ccc;
 }
 .mainSearchSuggest .twk li p.moreContent a{
-	color: #999;
+    color: #999;
 }
 p.more, a.readmore{
     font-weight: bold;
@@ -44,7 +44,7 @@ tr.diff, tr.diff td {
     box-shadow: none !important;
 }
 #community .communityReviews .userReview .reviewContent .userInfo h2 a{
-	color: #ccc;
+    color: #ccc;
 }
 .toggleSwitch {
     opacity: 0.9;
@@ -281,5 +281,144 @@ a:visited, #bestBuyGuides .description, #adv a, table.listing td.topic a, table.
 .fpaItem a, input.text, .pageTabs > ul a, .forumList, .table.listing, #select_days, #select_days *, .messagecontent .message-quote-div *, .messagecontent .message-quote-div, .sortable.select .specName, .sortable.sortorder small, .jouwRechten *, #reacties #reactieContainer > .reactie > .reactieBody.spotlight *, .pageDistribution .next, div.filteroption * {
     color: #ccc !important;
     text-shadow: none !important;
+}
+
+/* General Text Color fix */
+body {
+    color: #999;
+}
+
+/* Background Color Preview of Featrued Review */
+.bestTestedContainer .bestTestedProduct .info .intro {
+    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Removal of arrow key -- We could edit the image but this looks better. -- In Featured Reviews*/
+.bestTestedContainer .bestTestedProduct .info .arrow,
+.communityReviews .userReview .reviewContent .userReviewDescription p .arrow {
+    background: url(data:) !important;
+    }
+
+/* Frontpage (3 items) Text Background color */
+.fpaItem .fpaMeta {
+    background: white;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+/*Search button Gray */
+.keywordSearch .submit {
+    background: #404040 url(../g/if/v3/framework/menu_icons_v2.png) no-repeat -48px -106px !important;
+}
+
+/* Stars Gray */ 
+.scoreStars {
+    background-image: url(https://i.imgur.com/Vql3EEs.png);
+}
+
+/* Gray border around thumbnails instead of white */ 
+.thumb {
+    background: gray;
+    background: rgba(255, 255, 255, 0.25);
+}
+
+/* Dark theme for Featured Webshops */
+.featured {
+    background-image: -webkit-linear-gradient(#000000, #3a3a3a);
+    background-image: -moz-linear-gradient(#000000, #3a3a3a);
+    background-image: linear-gradient(#000000, #3a3a3a);
+    background-image: -ms-linear-gradient(#000000, #3a3a3a);
+    background-image: -webkit-gradient(#000000, #3a3a3a);
+    background-image: -o-linear-gradient(#000000, #3a3a3a);
+}
+.featured .atLabel {
+    background: #2a2a2a;
+}
+
+/* Dark Background color for Rights when buying online */
+.filterBlock {
+    background: #343434;
+}
+
+/* Dark Background color for the dropdown selector that selects different product versions   */
+.specName {
+    background: #393939!important;
+}
+
+/* Stored Filterset Message */
+#storedFilterSet {
+    background-color: #343434;
+    border: 1px solid #ffffff;
+}
+
+/* Active Filters */
+#activeFilters .filter, 
+#storedFilterSet .activeFilters .filter {
+    background: rgba(0, 0, 0, 0.40);
+    color: #999;
+}
+
+#activeFilters .filter .value {
+    color: #999;
+}
+
+/* Selected Filters */
+.filterOption .selected {
+    background: #484848;
+    background-image: -webkit-linear-gradient(#6e6e6e, #484848);
+    background-image: -moz-linear-gradient(#6e6e6e, #484848);
+    background-image: linear-gradient(#6e6e6e, #484848);
+    background-image: -ms-linear-gradient(#6e6e6e, #484848);
+    background-image: -webkit-gradient(#6e6e6e, #484848);
+    background-image: -o-linear-gradient(#6e6e6e, #484848);
+}
+
+
+/* Info Icon Readabilty Fix (In Pricewatch) */
+
+.infoIcon {
+    background: url(../g/hidpi/icons/info-icon.svg) white no-repeat 50% 50%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-radius: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+
+/* Hover on Specs */
+.productSpecifications tbody tr:hover, .productSpecifications tbody .diff:hover {
+    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Search in Job Offers */
+.keywordSearch input.text {
+    background: gray;
+    background: rgba(51, 51, 51, 0.9);
+    border: 3px;
+    border-top-color: gray;
+    border-top-color: rgba(255, 255, 255, .12);
+    box-shadow: inset 1px 0.5px #000;
+    color: white !important;
+}
+
+/* Popular Product Counter Readability fix */
+
+.counter {
+    background: #000000;
+    background-image: -webkit-linear-gradient(#656565, #424242);
+    background-image: -moz-linear-gradient(#656565, #424242);
+    background-image: linear-gradient(#656565, #424242);
+    background-image: -ms-linear-gradient(#656565, #424242);
+    background-image: -webkit-gradient(#656565, #424242);
+    background-image: -o-linear-gradient(#656565, #424242);
+    color: #fff;
+}
+
+/* Karma Icon Fix */
+.topKarma .emperor {
+    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.10);
 }
 }
