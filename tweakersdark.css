@@ -421,4 +421,27 @@ body {
     background-color: gray;
     background-color: rgba(255, 255, 255, 0.10);
 }
+
+
+/* Product Info on review page. */
+.article .ScoreCard.Editorial .productInfo {
+    background-color: gray;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Statement of Contents Fix */
+
+#toc.fixed.bottom {
+    background: rgba(125, 24, 45, 0.5);
+}
+
+#toc.fixed .reviewToc h2 {
+    background: none;
+}
+
+#toc.fixed .reviewToc .tocContent ul li a {
+    color: #ccc;
+}
+
+
 }
