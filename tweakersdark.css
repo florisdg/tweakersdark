@@ -302,8 +302,7 @@ body {
 
 /* Frontpage (3 items) Text Background color */
 .fpaItem .fpaMeta {
-    background: white;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(50, 50, 50, 0.8);
 }
 
 /*Search button Gray */
@@ -424,7 +423,4 @@ body {
 
 #toc.fixed .reviewToc .tocContent ul li a {
     color: #ccc;
-}
-
-
 }
