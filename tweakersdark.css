@@ -307,7 +307,7 @@ body {
 
 /*Search button Gray */
 .keywordSearch .submit {
-    background: #404040 url(../g/if/v3/framework/menu_icons_v2.png) no-repeat -48px -106px !important;
+    background: #404040 url(https://tweakers.net/g/if/v3/framework/menu_icons_v2.png) no-repeat -48px -106px !important;
 }
 
 /* Stars Gray */ 
@@ -359,7 +359,7 @@ body {
 /* Info Icon Readabilty Fix (In Pricewatch) */
 
 .infoIcon {
-    background: url(../g/hidpi/icons/info-icon.svg) white no-repeat 50% 50%;
+    background: url(https://tweakers.net/g/hidpi/icons/info-icon.svg) white no-repeat 50% 50%;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
     border-radius: 15px;
@@ -423,4 +423,6 @@ body {
 
 #toc.fixed .reviewToc .tocContent ul li a {
     color: #ccc;
+}
+
 }
